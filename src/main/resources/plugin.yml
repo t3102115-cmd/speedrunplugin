@@ -1,0 +1,11 @@
+name: SpeedrunPlugin
+version: 1.3
+main: speedrunmod.quantiom.speedrun.SpeedrunPlugin
+api-version: 1.21
+depend:
+  - Multiverse-Core
+  - Multiverse-NetherPortals
+
+commands:
+  speedrun:
+    description: Create a new speedrun world
